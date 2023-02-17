@@ -20,7 +20,7 @@
     "prettier": "^2.5.1"
   },
   "workspaces": [
-    "astrolabe",
-    "test-app"
+    "experiments/*",
+    "astrolabe"
   ]
 }
