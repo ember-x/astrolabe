@@ -1,0 +1,26 @@
+{
+  "name": "astrolabe",
+  "version": "0.0.0",
+  "private": true,
+  "repository": "",
+  "license": "MIT",
+  "author": "",
+  "scripts": {
+    "prepare": "yarn build",
+    "build": "yarn workspace astrolabe run build",
+    "start": "concurrently 'npm:start:*' --restart-after 5000 --prefix-colors cyan,white,yellow",
+    "start:addon": "yarn workspace astrolabe run start",
+    "start:test": "yarn workspace test-app run start",
+    "test": "yarn workspaces run test",
+    "lint": "yarn workspaces run lint",
+    "lint:fix": "yarn workspaces run lint:fix"
+  },
+  "devDependencies": {
+    "concurrently": "^7.2.1",
+    "prettier": "^2.5.1"
+  },
+  "workspaces": [
+    "astrolabe",
+    "test-app"
+  ]
+}
