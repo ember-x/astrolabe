@@ -1,35 +1,15 @@
-astrolabe
+Astrolabe
 ==============================================================================
 
-[Short description of the addon.]
-
+Experimentation with a new router for Ember.js
 
 Compatibility
 ------------------------------------------------------------------------------
 
+It might not be compatible with anything but if you're going to try, then:
+
 * Ember.js v3.28 or above
 * Embroider or ember-auto-import v2
-
-
-Installation
-------------------------------------------------------------------------------
-
-```
-ember install astrolabe
-```
-
-
-Usage
-------------------------------------------------------------------------------
-
-[Longer description of how to use the addon in apps.]
-
-
-Contributing
-------------------------------------------------------------------------------
-
-See the [Contributing](CONTRIBUTING.md) guide for details.
-
 
 License
 ------------------------------------------------------------------------------
