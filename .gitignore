@@ -6,6 +6,15 @@ dist/
 # dependencies
 node_modules/
 
+#yarn
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+
 # misc
 /.env*
 /.pnp*

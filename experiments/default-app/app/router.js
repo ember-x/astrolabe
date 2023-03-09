@@ -1,5 +1,5 @@
 import EmberRouter from '@ember/routing/router';
-import config from 'test-app/config/environment';
+import config from 'default-app/config/environment';
 
 export default class Router extends EmberRouter {
   location = config.locationType;
@@ -8,4 +8,5 @@ export default class Router extends EmberRouter {
 
 Router.map(function () {
   // Add route declarations here
+  this.route('catchall', { path: '/*path' });
 });
